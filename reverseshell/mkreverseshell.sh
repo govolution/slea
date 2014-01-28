@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Author: Daniel Sauder
+# Website: http://govolution.wordpress.com/about
+# License http://creativecommons.org/licenses/by-sa/3.0/
+
 #convert the ip
 ad1=`echo $1|cut -d "." -f1`
 ad1=`printf "%02X" $ad1`

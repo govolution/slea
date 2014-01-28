@@ -1,3 +1,9 @@
+/*
+Author: Daniel Sauder
+Website: http://govolution.wordpress.com/about
+License http://creativecommons.org/licenses/by-sa/3.0/
+*/
+
 #include<stdio.h>
 #include<string.h>
 

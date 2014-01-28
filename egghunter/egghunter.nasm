@@ -1,3 +1,7 @@
+; Author: Daniel Sauder
+; Website: http://govolution.wordpress.com/about
+; License http://creativecommons.org/licenses/by-sa/3.0/
+
 global _start
 
 section .text
